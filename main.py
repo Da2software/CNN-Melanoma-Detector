@@ -1,4 +1,4 @@
-from core.processes import TensorflowModel, ImageTransform
+from core.processes import TensorflowModel, ImageTransform, ImageTransformLocal
 from typing import Annotated
 from fastapi import FastAPI, File
 
